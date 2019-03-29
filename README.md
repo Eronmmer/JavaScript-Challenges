@@ -1,3 +1,3 @@
 # JavaScript Challenges
 
-A detailed list of JavaScript challenges and their solutions. 
+My solutions to JavaScript challenges I come across on the internet.
