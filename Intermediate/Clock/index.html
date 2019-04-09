@@ -6,11 +6,49 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Clock</title>
   <style>
-    
+    html, body {
+      background: rgb(182, 41, 72);
+    }
+
+    .clock {
+      height: 270px;
+      width: 270px;
+      border: 17px solid white;
+      border-radius: 50%;
+      margin: 0 auto;
+      margin-top: 20vh;
+      padding: 2rem;
+      position: relative;
+    }
+
+    .clock-body {
+      width: 100%;
+      height: 100%;
+      position: relative;
+    }
+
+    .hand {
+      background: #000;
+      height: 6px;
+      width: 50%;
+      position: absolute;
+      top: 50%;
+      transform-origin: 100%;
+      transform: rotate(90deg);
+      transition: all 0.05;
+      transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+    }
   </style>
 </head>
 <body>
-  
+  <div class="clock">
+    <div class="clock-body">
+      <div class="hand hour-hand"></div>
+      <div class="hand min-hand"></div>
+      <div class="hand second-hand"></div>
+    </div>
+  </div>
+
   <script src="main.js"></script>
 </body>
 </html>
