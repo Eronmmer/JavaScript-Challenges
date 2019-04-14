@@ -1,3 +1,3 @@
-# JavaScript Challenges
+﻿# JavaScript Challenges
 
-JavaScript Challenges I've attempted 🔥🔥
+My solutions to JavaScript challenges 🔥🔥
