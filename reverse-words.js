@@ -1,6 +1,6 @@
 // A function that takes a string parameter and reverses each word in the string retaining space(s) also.
 
-function reverseMe(str) {
+function reverseWords(str) {
 	let one = str.split(' ');
 	return one.map(words => words.split('').reverse().join('')).join(' ');
 }
